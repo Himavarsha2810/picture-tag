@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <form action="./picturetag1.html">
+            <select name="option" id="option">
+                <optgroup label="Most famous hyd food">
+                    <option value="">handi briyani</option>
+                    <option value="">famous old icecream</option>
+                    <option value="">chicken briyani</option>
+                    <option value="">halem</option>
+                </optgroup>
+                <optgroup label="famous places in hyd">
+                    <option value="">charminar</option>
+                    <option value="">golconda fort</option>
+                    <option value="">wonderla</option>
+                    <option value="">ramoji film city</option>
+                </optgroup>
+            </select>
+        <input list="colours" name="clrs" id="clrs">
+        <datalist id="colours">
+            <option value="Green">Green</option>
+            <option value="Violet">Violet</option>
+            <option value="Orange">Orange</option>
+            <option value="Blue">Blue</option>
+        </datalist>
+        <input type="submit" >
+        <input type="submit" value="navigate to picture " formaction="./picturetag1.html">
+        </form>
+        </fieldset>
+        <picture>
+            <source media="(min-width:620px)" srcset="./assests/images/goku.jpg" height="100">
+        </picture>
+</body>
+</html>
